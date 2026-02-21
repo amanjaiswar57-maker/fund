@@ -6,12 +6,7 @@ interface QRCodeProps {
   amount?: number;
 }
 
-const QRCode: React.FC<QRCodeProps> = ({ 
-  upiId = "ajay@okaxis", 
-  name = "Ajay", 
-  amount = 10 
-}) => {
-  const qrData = `upi://pay?pa=${upiId}&pn=${name}&am=${amount}&cu=INR&tn=CameraFund`;
+const QRCode: React.FC<QRCodeProps> = () => {
   
   return (
     <div className="w-48 h-48 bg-white rounded-lg mx-auto flex items-center justify-center border-2 border-slate-300 relative overflow-hidden">
