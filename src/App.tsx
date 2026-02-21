@@ -55,7 +55,7 @@ const App: React.FC = () => {
               >
                 <Settings className="w-5 h-5" />
               </button>
-              <a href="#" className="text-slate-600 hover:text-purple-600 transition-colors">
+              <a href="https://www.instagram.com/ajayc_inematography?igsh=MTZnY2ozMms5dXczdA==" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-purple-600 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="#" className="text-slate-600 hover:text-purple-600 transition-colors">
